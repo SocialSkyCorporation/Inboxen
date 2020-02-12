@@ -4,6 +4,7 @@
 #
 #    pip-compile --output-file=requirements.txt inboxen/data/requirements.in
 #
+-e git+https://github.com/moggers87/django-cursor-pagination.git@af94134832daeb355c45d784ec26497386d72b07#egg=django_cursor_pagination
 -e file:.#egg=inboxen
 amqp==2.4.2
 asgiref==3.2.3            # via django
@@ -20,7 +21,6 @@ cssutils==1.0.2           # via premailer
 django-annoying==0.10.6
 django-bootstrap-form==3.4
 django-csp==3.6
-django-cursor-pagination==0.1.4
 django-elevate==1.0.1
 django-extensions==2.2.8
 django-formtools==2.2     # via django-two-factor-auth
